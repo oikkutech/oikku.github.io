@@ -90,10 +90,19 @@ a {
 }
 
 /* Explore */
-.explore-list > div{
+.explore-list{
     align-self: center;
+    font-size: 24px;
 }
 
+.explore-header{
+    position: relative;
+    top: -80px;
+}
+
+.explore-list ul li {
+    margin: 20px;
+}
 /* Explore Spacing */
 .explore-left {
     flex: 6;
@@ -104,7 +113,7 @@ a {
 }
 
 .explore-space {
-    flex: 6;
+    flex: 9;
 }
 
 .explore-list-spacing{
@@ -112,7 +121,7 @@ a {
 }
 
 .explore-right {
-    flex: 9;
+    flex: 6;
 }
 
 /* Email List */
