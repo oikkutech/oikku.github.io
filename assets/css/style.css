@@ -1,0 +1,15 @@
+.flex-col-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-row-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-col-container > div, .flex-row-container > div {
+    margin: 10px 0 10px 0;
+    padding: 10px 0 10px 0;
+    background-color: lightgray;
+}
