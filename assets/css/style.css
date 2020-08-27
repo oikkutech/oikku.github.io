@@ -90,7 +90,7 @@ a {
 }
 
 /* Explore */
-.explore-list > ul{
+.explore-list > div{
     align-self: center;
 }
 
@@ -144,4 +144,17 @@ input {
     flex-direction: row;
     align-items: center;
     justify-content: center;
+}
+
+/* Copyright Flex */
+.copy-left {
+    flex: 9;
+}
+
+.copy-space {
+    flex: 8;
+}
+
+.copy-right {
+    flex: 4;
 }
