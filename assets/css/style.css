@@ -1,3 +1,4 @@
+/* Flex layout */
 .flex-col-container {
     display: flex;
     flex-direction: column;
@@ -8,8 +9,139 @@
     flex-direction: row;
 }
 
+
 .flex-col-container > div, .flex-row-container > div {
-    margin: 10px 0 10px 0;
-    padding: 10px 0 10px 0;
-    background-color: lightgray;
+    /* margin: 10px 0 10px 0;
+    padding: 10px 0 10px 10px; */
+    background-color: #0da2a6;
+}
+
+.top {
+    margin: 0;
+    padding: 0;
+}
+
+/* Main Flex */
+.main-left {
+    flex: 6;
+}
+
+.main {
+    flex: 4;
+}
+
+.main-space {
+    flex: 6;
+}
+
+.main-phone {
+    flex: 4
+}
+
+.main-right {
+    flex: 6;
+}
+
+/* Main Content */
+#sec-header {
+    font-size: 4em;
+}
+
+/* Learn */
+.phone-img {
+    height: 400px;
+}
+
+.learn-list {
+    align-self: center;
+    font-size: 24px;
+}
+
+.learn-list ul li {
+    margin: 20px;
+}
+
+a {
+    font-size: 1.4em;
+    color: #212529;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/* Learn Spacing */
+.learn-left {
+    flex: 6;
+}
+
+.phone {
+    flex: 4;
+}
+
+.learn-space {
+    flex: 6;
+}
+
+.learn-list-spacing{
+    flex: 4;
+}
+
+.learn-right {
+    flex: 9;
+}
+
+/* Explore */
+.explore-list > ul{
+    align-self: center;
+}
+
+/* Explore Spacing */
+.explore-left {
+    flex: 6;
+}
+
+.explore-phone {
+    flex: 4;
+}
+
+.explore-space {
+    flex: 6;
+}
+
+.explore-list-spacing{
+    flex: 4;
+}
+
+.explore-right {
+    flex: 9;
+}
+
+/* Email List */
+.email-left {
+    flex: 8;
+}
+
+.email-content {
+    flex: 6;
+}
+
+.email-right {
+    flex: 10;
+}
+
+#email-con {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input {
+    display: block;
+    margin: auto;
+}
+
+#email-con-2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
