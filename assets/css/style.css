@@ -21,6 +21,19 @@
     padding: 0;
 }
 
+/* Header Flex */
+.header-left {
+    flex: 6;
+}
+
+.header-mid {
+    flex: 14.5;
+}
+
+.header-right {
+    flex: 6;
+}
+
 /* Main Flex */
 .main-left {
     flex: 6;
