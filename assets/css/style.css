@@ -1,182 +1,73 @@
-/* Flex layout */
-.flex-col-container {
-    display: flex;
-    flex-direction: column;
+* {
+    font-family: 'Poppins';
 }
 
-.flex-row-container {
-    display: flex;
-    flex-direction: row;
-}
-
-
-.flex-col-container > div, .flex-row-container > div {
-    /* margin: 10px 0 10px 0;
-    padding: 10px 0 10px 10px; */
+#header {
     background-color: #0da2a6;
+    padding: 10px;
+    width: 100%;
 }
 
-.top {
-    margin: 0;
+#header-img {
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+    float: left;
     padding: 0;
+    margin: 0;
 }
 
-/* Header Flex */
-.header-left {
-    flex: 6;
+#button-img {
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+    float: left;
 }
 
-.header-mid {
-    flex: 14.5;
+#header-title {
+    font-weight: 500;
 }
 
-.header-right {
-    flex: 6;
+#main {
+    background-color: lightgray;
+    height: 600px;
 }
 
-/* Main Flex */
-.main-left {
-    flex: 6;
+#main-text {
+    font-size: 6em;
+    font-weight: 500;
 }
 
-.main {
-    flex: 4;
-}
-
-.main-space {
-    flex: 6;
-}
-
-.main-phone {
-    flex: 4
-}
-
-.main-right {
-    flex: 6;
-}
-
-/* Main Content */
-#sec-header {
-    font-size: 4em;
-}
-
-/* Learn */
-.phone-img {
+#explore {
     height: 400px;
 }
 
-.learn-list {
-    align-self: center;
-    font-size: 24px;
+#learn {
+    height: 400px;
 }
 
-.learn-list ul li {
-    margin: 20px;
+#explore-text {
+    font-size: 5em;
+    font-weight: 700;
+    position: absolute;
+    color: #f05e32;
 }
 
-a {
-    font-size: 1.4em;
-    color: #212529;
-    font-weight: bold;
-    text-decoration: underline;
+#learn-text {
+    font-size: 5em;
+    font-weight: 700;
+    position: absolute;
+    color: #3acf73;
 }
 
-/* Learn Spacing */
-.learn-left {
-    flex: 6;
+.list {
+    padding-top: 150px;
 }
 
-.phone {
-    flex: 4;
+.email-list {
+    background-color: #0da2a6;
 }
 
-.learn-space {
-    flex: 6;
-}
-
-.learn-list-spacing{
-    flex: 4;
-}
-
-.learn-right {
-    flex: 9;
-}
-
-/* Explore */
-.explore-list{
-    align-self: center;
-    font-size: 24px;
-}
-
-.explore-header{
-    position: relative;
-    top: -80px;
-}
-
-.explore-list ul li {
-    margin: 20px;
-}
-/* Explore Spacing */
-.explore-left {
-    flex: 6;
-}
-
-.explore-phone {
-    flex: 4;
-}
-
-.explore-space {
-    flex: 9;
-}
-
-.explore-list-spacing{
-    flex: 4;
-}
-
-.explore-right {
-    flex: 6;
-}
-
-/* Email List */
-.email-left {
-    flex: 8;
-}
-
-.email-content {
-    flex: 6;
-}
-
-.email-right {
-    flex: 10;
-}
-
-#email-con {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-input {
-    display: block;
-    margin: auto;
-}
-
-#email-con-2 {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-}
-
-/* Copyright Flex */
-.copy-left {
-    flex: 9;
-}
-
-.copy-space {
-    flex: 8;
-}
-
-.copy-right {
-    flex: 4;
+.copy {
+    background-color: #f05e32;
 }
