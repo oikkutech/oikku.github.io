@@ -29,7 +29,9 @@
 }
 
 #main {
-    background-color: lightgray;
+    /* background-color: lightgray; */
+    background-image: url('https://i.imgur.com/6gVoZEO.jpg');
+    background-size: cover;
     padding: 50px;
     padding-bottom: 200px;
 }
@@ -131,4 +133,8 @@ li {
     .content-right {
         width: 100%;
     }
+}
+
+#email-form {
+    display: flex;
 }
