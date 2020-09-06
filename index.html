@@ -8,6 +8,9 @@
         <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="assets/css/bootstrap.min.css">
         <link rel="stylesheet" href="assets/css/style.css">
+
+        <!-- Animation CSS -->
+        <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
     </head>
 
     <body>
@@ -40,7 +43,7 @@
 
         <div id="main">
             <div>
-                <p id="main-text">Learn Python through an RPG game</p>
+                <p id="main-text" data-aos="flip-down">Learn Python through an RPG game</p>
             </div>
 
             <a href="#"><img src="assets/img/getstarted.png" id="button-img"></a>
@@ -50,7 +53,7 @@
             <div class="content-left">
                 <p id="explore-text">Explore</p>
 
-                <div class="list">
+                <div class="list" data-aos="fade-up">
                     <ul>
                         <li>Explore the land and find the Pygeon's treasure!</li>
                         <li>As you learn Python, battle minotaurs.</li>
@@ -66,11 +69,11 @@
 
         <hr>
 
-        <div id="learn">
+        <div id="learn" data-aos="zoom-out-right">
             <div class="content-left">
-                <p id="learn-text">Learn</p>
+                <p id="learn-text" data-aos="fade-right">Learn</p>
 
-                <div class="list">
+                <div class="list" id="learn-list" data-aos="fade-up">
                     <ul>
                         <li>Engaging for kids. Builds strong foundations.</li>
                         <li>Learn high-school programming curriculum, including lessons covering AP Computer Science A content.</li>
@@ -79,7 +82,7 @@
                 </div>
             </div>
             
-            <div class="content-right">
+            <div class="content-right" data-aos="zoom-out-left">
                 <img src="https://i.imgur.com/0EG8j5i.png" class="content-img">
             </div>
         </div>
@@ -87,20 +90,20 @@
         <hr>
 
         <div id="teach">
-            <div class="content-left">
+            <div class="content-left" data-aos="zoom-out-right">
                 <p id="teach-text">Teach</p>
 
-                <div class="list">
+                <div class="list" data-aos="fade-up">
                     <ul>
                         <li>If you're a parent or teacher, reach out to us for more information!</li>
                         <li>We have experience teaching coding in schools and crafted Pygeon using our experience engaging kids in STEM.</li>
-                        <li>We offer free set-up and rates for schools through our outreach program.</li>
                         <li>Perfect activity for the Hour of Code.</li>
+                        <li>We offer free set-up and rates for schools through our outreach program.</li>
                     </ul>
                 </div>
             </div>
 
-            <div class="content-right">
+            <div class="content-right" data-aos="zoom-out-left">
                 <img src="https://i.imgur.com/epnnfHT.png" class="content-img">
             </div>
         </div>
@@ -113,7 +116,7 @@
 
             <div class="email-content" id="email-con">
                 <div id="email-con-2">
-                    <h1>Interested? Join our email list.</h1>
+                    <h1 data-aos="flip-up"> Interested? Join our email list.</h1>
                     <div id="email-form">
                         <div>
                             <input type="text" placeholder="Email Address" name="mail" required>
@@ -140,5 +143,12 @@
     <!-- Scripts -->
         <script src="assets/js/bootstrap.min.js"></script>
         <script src="assets/js/script.js"></script>
+
+    <!-- Animated Scripts -->
+        <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+
+        <script>
+            AOS.init();
+        </script>
     </body>
 </html>

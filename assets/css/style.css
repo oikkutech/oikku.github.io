@@ -154,3 +154,7 @@ li {
 #header-title:hover {
     color: white;
 }
+
+#learn-list {
+    font-weight: 500;
+}
