@@ -114,12 +114,12 @@ li {
 
 /* Responsive content */
 @media(min-width: 993px) {
-    .content-left {
-        width: 40%;
+    #explore, #learn, #teach {
+        display: flex;
     }
-    
-    .content-right {
-        width: 60%;
+
+    .content-img {
+        float: right;
     }
 }
 
