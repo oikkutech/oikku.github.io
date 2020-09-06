@@ -26,6 +26,7 @@
 
 #header-title {
     font-weight: 500;
+    white-space: pre-wrap;
 }
 
 #main {
@@ -73,7 +74,7 @@
     font-size: 5em;
     font-weight: 700;
     position: absolute;
-    color: #f05e32;
+    color: #f05e32r;
 }
 
 .list {
