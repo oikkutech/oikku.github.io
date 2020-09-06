@@ -2,6 +2,10 @@
     font-family: 'Poppins';
 }
 
+body {
+    overflow-x: hidden;
+}
+
 #header {
     background-color: #0da2a6;
     padding: 10px;
