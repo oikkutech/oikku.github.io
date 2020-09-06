@@ -80,8 +80,9 @@
     background-color: #0da2a6;
 }
 
-.copy {
+#copy {
     background-color: #f05e32;
+    padding-left: 50px;
 }
 
 a {
@@ -97,4 +98,37 @@ a:hover {
 li {
     color: #292b2c;
     font-size: 1.5em;
+}
+
+.content-left {
+    width: 40%;
+}
+
+.content-right {
+    width: 60%;
+}
+
+#email-con {
+    padding: 50px;
+}
+
+/* Responsive content */
+@media(min-width: 993px) {
+    .content-left {
+        width: 40%;
+    }
+    
+    .content-right {
+        width: 60%;
+    }
+}
+
+@media(max-width: 992px) {
+    .content-left {
+        width: 100%;
+    }
+    
+    .content-right {
+        width: 100%;
+    }
 }
