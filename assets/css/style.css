@@ -73,8 +73,8 @@
 #teach-text {
     font-size: 5em;
     font-weight: 700;
+    color: #f05e32;
     position: absolute;
-    color: #f05e32r;
 }
 
 .list {
@@ -126,6 +126,11 @@ li {
     .content-img {
         float: right;
     }
+
+    .award {
+        float: right;
+        font-style: italic;
+    }
 }
 
 @media(max-width: 992px) {
@@ -135,6 +140,11 @@ li {
     
     .content-right {
         width: 100%;
+    }
+
+    .award {
+        display: block;
+        font-style: italic;
     }
 }
 
