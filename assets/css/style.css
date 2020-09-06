@@ -30,7 +30,7 @@
 
 #main {
     /* background-color: lightgray; */
-    background-image: url('https://i.imgur.com/6gVoZEO.jpg');
+    background-image: url('https://i.imgur.com/fXJJL04.png');
     background-size: cover;
     padding: 50px;
     padding-bottom: 200px;
@@ -47,6 +47,8 @@
 
 #learn {
     padding: 50px;
+    background-image: url('https://i.imgur.com/fXJJL04.png');
+    background-position-y: bottom;
 }
 
 #teach {
