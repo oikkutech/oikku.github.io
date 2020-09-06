@@ -30,7 +30,8 @@
 
 #main {
     background-color: lightgray;
-    height: 600px;
+    padding: 50px;
+    padding-bottom: 200px;
 }
 
 #main-text {
@@ -39,11 +40,15 @@
 }
 
 #explore {
-    height: 400px;
+    padding: 50px;
 }
 
 #learn {
-    height: 400px;
+    padding: 50px;
+}
+
+#teach {
+    padding: 50px;
 }
 
 #explore-text {
@@ -60,6 +65,13 @@
     color: #3acf73;
 }
 
+#teach-text {
+    font-size: 5em;
+    font-weight: 700;
+    position: absolute;
+    color: #f0ad32;
+}
+
 .list {
     padding-top: 150px;
 }
@@ -70,4 +82,19 @@
 
 .copy {
     background-color: #f05e32;
+}
+
+a {
+    color: #292b2c;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #292b2c;
+    text-decoration: none;
+}
+
+li {
+    color: #292b2c;
+    font-size: 1.5em;
 }
