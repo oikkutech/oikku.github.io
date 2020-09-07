@@ -1,7 +1,49 @@
 #main {
-    height: 1600px;
+    height: 1800px;
     top: 0;
     left: 0;
     bottom: 0;
     right: 0;
+    margin-bottom: -20px;
+}
+
+.circle-img {
+    height: 250px;
+    width: 250px;
+    border-radius: 100%;
+}
+
+#main-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#main-about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#main-about-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#main-about-3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.about {
+    font-size: 1.5em;
+    text-align: center;
+    font-weight: 600;
+}
+
+.about-link {
+    text-decoration: underline;
 }
