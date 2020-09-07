@@ -5,3 +5,11 @@
     bottom: 0;
     right: 0;
 }
+
+.blog-title {
+    text-decoration: underline;
+}
+
+.blog-content {
+    font-size: 1.25em;
+}
