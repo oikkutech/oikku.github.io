@@ -13,3 +13,7 @@
 .blog-content {
     font-size: 1.25em;
 }
+
+.blog-link {
+    text-decoration: underline;
+}
