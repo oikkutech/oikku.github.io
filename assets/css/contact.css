@@ -5,3 +5,16 @@
     bottom: 0;
     right: 0;
 }
+
+#main {
+    height: 1800px;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin-bottom: -20px;
+}
+
+.contact-link {
+    text-decoration: underline;
+}
