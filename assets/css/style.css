@@ -6,6 +6,10 @@ body {
     overflow-x: hidden;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 #header {
     background-color: #0da2a6;
     padding: 10px;
