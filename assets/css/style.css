@@ -177,3 +177,17 @@ li {
 #learn-list {
     font-weight: 500;
 }
+
+#copy-space {
+    float: left;
+}
+
+.social-media {
+    display: flex;
+    flex-direction: row;
+}
+
+.social {
+    display: inline-block;
+    padding: 5px;
+}
