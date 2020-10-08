@@ -17,3 +17,9 @@
 .blog-link {
     text-decoration: underline;
 }
+
+.blog {
+    background: rgba(255, 255, 255, 0.5);
+    padding: 5px;
+    margin: 15px;
+}
