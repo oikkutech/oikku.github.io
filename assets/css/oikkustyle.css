@@ -1,0 +1,193 @@
+* {
+    font-family: 'Poppins';
+}
+
+body {
+    overflow-x: hidden;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#header {
+    background-color: #0da2a6;
+    padding: 10px;
+    width: 100%;
+}
+
+#header-img {
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+    float: left;
+    padding: 0;
+    margin: 0;
+}
+
+#button-img {
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+    float: left;
+}
+
+#header-title {
+    font-weight: 500;
+    white-space: pre-wrap;
+}
+
+#main {
+    /* background-color: lightgray; */
+    background-image: url('https://i.imgur.com/fXJJL04.png');
+    background-size: cover;
+    padding: 50px;
+    padding-bottom: 200px;
+}
+
+#main-text {
+    font-size: 6em;
+    font-weight: 500;
+}
+
+#explore {
+    padding: 50px;
+}
+
+#learn {
+    padding: 50px;
+    background-image: url('https://i.imgur.com/fXJJL04.png');
+    background-position-y: bottom;
+}
+
+#teach {
+    padding: 50px;
+}
+
+#explore-text {
+    font-size: 5em;
+    font-weight: 700;
+    position: absolute;
+    color: #f05e32;
+}
+
+#learn-text {
+    font-size: 5em;
+    font-weight: 700;
+    position: absolute;
+    color: #3acf73;
+}
+
+#teach-text {
+    font-size: 5em;
+    font-weight: 700;
+    color: #f05e32;
+    position: absolute;
+}
+
+.list {
+    padding-top: 150px;
+}
+
+.email-list {
+    background-color: #0da2a6;
+}
+
+#copy {
+    background-color: #f05e32;
+    padding-left: 50px;
+}
+
+a {
+    color: #292b2c;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #292b2c;
+    text-decoration: none;
+}
+
+li {
+    color: #292b2c;
+    font-size: 1.5em;
+}
+
+.content-left {
+    width: 40%;
+}
+
+.content-right {
+    width: 60%;
+}
+
+#email-con {
+    padding: 50px;
+}
+
+/* Responsive content */
+@media(min-width: 993px) {
+    #explore, #learn, #teach {
+        display: flex;
+    }
+
+    .content-img {
+        float: right;
+    }
+
+    .award {
+        float: right;
+        font-style: italic;
+    }
+}
+
+@media(max-width: 992px) {
+    .content-left {
+        width: 100%;
+    }
+    
+    .content-right {
+        width: 100%;
+    }
+
+    .award {
+        display: block;
+        font-style: italic;
+    }
+}
+
+#email-form {
+    display: flex;
+}
+
+#header-blog {
+    font-size: 1.75em;
+    font-weight: 500;
+}
+
+.linear:hover {
+    color: white;
+    font-size: 1.15em;
+}
+
+#header-title:hover {
+    color: white;
+}
+
+#learn-list {
+    font-weight: 500;
+}
+
+#copy-space {
+    float: left;
+}
+
+.social-media {
+    display: flex;
+    flex-direction: row;
+}
+
+.social {
+    display: inline-block;
+    padding: 5px;
+}
